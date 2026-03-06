@@ -4,7 +4,12 @@
 
 This challenge is based on a linked list structure, that may be resolved by using a recursive function in order to evaluate each value in memory. 
 
-The custom structure is provided by the written problem, and the resolution may be solved by writing a new function to handle it, or by changing the method parameters, in order to enable the function to carry tens unity values forward  
+The custom structure is provided by the written problem, and the resolution may be solved by writing a new function to handle it, or by changing the method parameters, in order to enable the function to carry tens unity values forward 
+
+### submitted
+
+<img width="680" height="434" alt="image" src="https://github.com/user-attachments/assets/929c8d8c-076c-4523-96d5-418678184e02" />
+
 
 
 /**
