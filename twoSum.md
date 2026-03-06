@@ -1,8 +1,14 @@
 # Brief explanation
 
 ##### The two sum challenge objective is to find a solution avoiding running the given set twice. 
+##### [Two sum challenge link](https://leetcode.com/problems/two-sum/)
 
 I've created a reference for the numbers that are the answer for past numbers, and kept record for future validation and result presentation, by using a map that holds the index of the number that combined, result in the target. 
+
+Evaluated submission
+
+<img width="393" height="56" alt="image" src="https://github.com/user-attachments/assets/a31c3a74-764f-41aa-9f82-edfda83f2919" />
+
 
 @param {number[]} nums  
 @param {number} target  
