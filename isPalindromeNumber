@@ -1,0 +1,25 @@
+# Brief explanation
+
+##### Given a number, evaluate if it's a palindrome number
+##### [Palindrome number link](https://leetcode.com/problems/palindrome-number/)
+
+I've created a reference for the numbers that are the answer for past numbers, and kept record for future validation and result presentation, by using a map that holds the index of the number that combined, result in the target. 
+
+Evaluated submission
+
+/**
+ * @param {number} x
+ * @return {boolean}
+ */
+var isPalindrome = function(x) {
+    let i = 0;
+    const jDoubt = `${x}`.length 
+    while(i <= (jDoubt / 2)) {
+        if(`${x}`[i] != `${x}`[jDoubt - (i+1)]) {
+            return false
+        }
+        i++;
+    }
+
+    return true
+};
