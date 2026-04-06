@@ -1,0 +1,30 @@
+
+https://leetcode.com/problems/reverse-integer/submissions/1970848982/
+
+/**
+ * @param {number} x
+ * @return {number}
+ */
+var reverse = function(x) {
+    try {
+        let reversedX = ''
+        let i = 0;
+        const xLength = (''+x).length
+        while(i < xLength) {
+            reversedX = (''+x)[i] + reversedX
+            i++;
+        }
+
+        if( Number.parseInt(reversedX) < Math.pow(2, 32-1) ) {
+            if(x < 0) {
+                return Number.parseInt(reversedX) * -1    
+            }
+            return Number.parseInt(reversedX)
+        }
+        
+        
+        return 0
+    } catch (e) {
+        return 0
+    }
+};
