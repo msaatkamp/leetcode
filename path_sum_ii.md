@@ -22,7 +22,9 @@ The custom structure is provided by the written problem, and the resolution may 
  * @param {number} targetSum
  * @return {number[][]}
  */
-var pathSum = function(root, targetSum) {
+
+```
+var pathSum = function(root, targetSum) {  
     const paths = []
     const evaluatePaths = (root, visited = []) => {
         if(!root) {
@@ -44,3 +46,4 @@ var pathSum = function(root, targetSum) {
     evaluatePaths(root)
     return paths
 };
+```
